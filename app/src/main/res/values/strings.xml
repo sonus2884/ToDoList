@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TO Do List</string>
+
+    <string name="chat">ToDO</string>
+    <string name="status">SETTING</string>
+
+    <string name="main_activity_name">All Tasks</string>
+    <string name="add_task_activity_name">Add a New Task</string>
+    <string name="edit_task_description">Describe your task</string>
+    <string name="add_button">add</string>
+    <string name="update_button">update</string>
+    <string name="delete_button">delete</string>
+    <string name="on_off_button">on/off</string>
+    <string name="brightness_control">brightness control</string>
+    <string name="wifi_setting_button">wifi setting</string>
+</resources>

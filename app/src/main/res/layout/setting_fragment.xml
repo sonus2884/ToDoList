@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="120dp"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/wifiButton"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_bottom"
+
+        android:text="@string/wifi_setting_button"
+        android:textColor="@android:color/primary_text_dark" />
+    <Button
+        android:id="@+id/brightnessButton"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_bottom"
+        android:text="@string/brightness_control"
+        android:textColor="@android:color/primary_text_dark" />
+    <Button
+        android:id="@+id/on_off_Button"
+        style="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_bottom"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+
+        android:text="@string/on_off_button"
+        android:textColor="@android:color/primary_text_dark" />
+
+</LinearLayout>
